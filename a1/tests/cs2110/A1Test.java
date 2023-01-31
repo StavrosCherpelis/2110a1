@@ -43,21 +43,20 @@ class A1Test {
      * Students are **not** expected to come up with this logic on their own right now.
      */
 
-    // TODO: Uncomment this test case after declaring `testNextCollatz()`.
-//    @Test
-//    void testNextCollatz() {
-//        // 4-2-1 cycle
-//        assertEquals(2, A1.nextCollatz(4));
-//        assertEquals(1, A1.nextCollatz(2));
-//        assertEquals(4, A1.nextCollatz(1));
-//
-//        // Negative numbers are allowed
-//        assertEquals(-1, A1.nextCollatz(-2));
-//        assertEquals(-2, A1.nextCollatz(-1));
-//
-//        // Zero is allowed
-//        assertEquals(0, A1.nextCollatz(0));
-//    }
+    @Test
+    void testNextCollatz() {
+        // 4-2-1 cycle
+        assertEquals(2, A1.nextCollatz(4));
+        assertEquals(1, A1.nextCollatz(2));
+        assertEquals(4, A1.nextCollatz(1));
+
+        // Negative numbers are allowed
+        assertEquals(-1, A1.nextCollatz(-2));
+        assertEquals(-2, A1.nextCollatz(-1));
+
+        // Zero is allowed
+        assertEquals(0, A1.nextCollatz(0));
+    }
 
     @Test
     void testMed3() {

@@ -19,7 +19,12 @@ public class A1 {
      */
     public static double polygonArea(int nSides, double sideLength) {
         // TODO: Implement this method according to its specifications.
-        throw new UnsupportedOperationException();
+        double s = Math.pow(sideLength, 2);
+        double pi = Math.PI;
+        double tan = Math.tan(pi/nSides);
+        return 0.25*s*(nSides/tan);
+        //throw new UnsupportedOperationException();
+
     }
 
     /**
@@ -30,6 +35,15 @@ public class A1 {
      */
     // TODO: Declare and implement a method named `nextCollatz()` that takes one int argument and
     // returns an int.
+    public static int nextCollatz(int arg) {
+        if (arg % 2 == 0){
+            return arg / 2;
+
+        }else {
+            return (arg * 3) + 1;
+        }
+
+    }
 
     /**
      * Return the sum of the Collatz sequence starting at `seed` and ending at 1 (inclusive).
