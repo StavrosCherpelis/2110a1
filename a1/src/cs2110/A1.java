@@ -136,7 +136,7 @@ public class A1 {
         // of the `String` class.
 
         // TODO: Implement this method according to its specifications.
-        
+
         String reverse = "";
         for (int i = s.length() - 1; i >= 0; i--) {
             reverse = reverse + s.charAt(i);
