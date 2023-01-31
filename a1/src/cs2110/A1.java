@@ -9,6 +9,7 @@ package cs2110;
 /**
  * Collection of misc. static functions for showcasing the capabilities of Java in a procedural
  * context.
+ * testing github
  */
 public class A1 {
 

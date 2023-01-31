@@ -1,7 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="37c5f867-5efb-4d78-afe0-ca38b9576553" name="Changes" comment="" />
+    <list default="true" id="37c5f867-5efb-4d78-afe0-ca38b9576553" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/src/cs2110/A1.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/cs2110/A1.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -23,7 +25,7 @@
   "keyToString": {
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
-    "last_opened_file_path": "C:/Users/stavc/Desktop/2110/assignments/a1"
+    "last_opened_file_path": "/Users/stavros/Desktop/CS_2110/assignments/a1"
   }
 }]]></component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
@@ -36,5 +38,16 @@
       <updated>1675140671613</updated>
     </task>
     <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
 </project>
