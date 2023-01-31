@@ -2,9 +2,11 @@ package cs2110;
 
 /*
  * Assignment metadata
- * Name and NetID: TODO (TODO)
- * Hours spent on assignment: TODO
+ * Name and NetID: Stavros sgc76
+ * Hours spent on assignment: 8
  */
+
+import java.util.ArrayList;
 
 /**
  * Collection of misc. static functions for showcasing the capabilities of Java in a procedural
@@ -92,7 +94,8 @@ public class A1 {
         // the value of a Boolean expression; do not use an if-statement.
 
         // TODO: Implement this method according to its specifications.
-        throw new UnsupportedOperationException();
+        return (lo1 > hi2) || (hi1 < lo1);
+        //throw new UnsupportedOperationException();
     }
 
     /**
@@ -105,7 +108,23 @@ public class A1 {
         // methods (including `Math.pow()`).
 
         // TODO: Implement this method according to its specifications.
-        throw new UnsupportedOperationException();
+        if (nTerms == 0) {
+            return 0;
+        }
+        float term = 0;
+        int den = 1;
+        for (int i = 1; i < nTerms + 1; i++) {
+            float n = (float) (1.0/den);
+            if (i % 2 == 0) {
+                term = term - n;
+            } else {
+                term = term + n;
+            }
+            den += 2;
+        }
+        System.out.println(term * 4);
+        return term * 4;
+        //throw new UnsupportedOperationException();
     }
 
     /**
@@ -117,7 +136,13 @@ public class A1 {
         // of the `String` class.
 
         // TODO: Implement this method according to its specifications.
-        throw new UnsupportedOperationException();
+        
+        String reverse = "";
+        for (int i = s.length() - 1; i >= 0; i--) {
+            reverse = reverse + s.charAt(i);
+        }
+        return s.equals(reverse);
+        //throw new UnsupportedOperationException();
     }
 
     /**
@@ -142,5 +167,10 @@ public class A1 {
     }
 
     // TODO: Declare, document, and implement a `main()` method calling the above methods and
+    public static void main(String[] args) {
+        estimatePi(100);
+        isPalindrome("h");
+
+    }
     // printing a result.
 }
