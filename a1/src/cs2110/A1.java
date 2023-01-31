@@ -36,7 +36,7 @@ public class A1 {
     // TODO: Declare and implement a method named `nextCollatz()` that takes one int argument and
     // returns an int.
     public static int nextCollatz(int arg) {
-        if (arg % 2 == 0){
+        if(arg % 2 == 0){
             return arg / 2;
 
         }else {
@@ -54,7 +54,13 @@ public class A1 {
         // advance the sequence.
 
         // TODO: Implement this method according to its specifications.
-        throw new UnsupportedOperationException();
+        int sum = 0;
+        while (seed != 1) {
+            sum = sum + seed;
+            seed = nextCollatz(seed);
+        }
+        return sum;
+        //throw new UnsupportedOperationException();
     }
 
     /**
@@ -64,9 +70,15 @@ public class A1 {
      */
     public static int med3(int a, int b, int c) {
         // Implementation constraint: Do not call any other methods.
-
+        if ((a > b && a < c) || (a > c && a < b)) {
+            return a;
+        }else if ((b > a && b < c) || (b > c && b < a)) {
+            return b;
+        }else {
+            return c;
+        }
         // TODO: Implement this method according to its specifications.
-        throw new UnsupportedOperationException();
+        //throw new UnsupportedOperationException();
     }
 
     /**
