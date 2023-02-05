@@ -143,6 +143,7 @@ public class A1 {
             reverse = reverse + s.charAt(i);
         }
         return s.equals(reverse);
+        //comment
         //throw new UnsupportedOperationException();
     }
 
