@@ -171,6 +171,7 @@ public class A1 {
         estimatePi(100);
         isPalindrome("h");
 
+
     }
     // printing a result.
 }
