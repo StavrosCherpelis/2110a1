@@ -139,6 +139,7 @@ public class A1 {
 
         String reverse = "";
         for (int i = s.length() - 1; i >= 0; i--) {
+            //comment
             reverse = reverse + s.charAt(i);
         }
         return s.equals(reverse);
